@@ -1,0 +1,17 @@
+$beige:                         #F4F4E7;
+$black:                         #050505;
+$blue:                          #0A55D0;
+$buttonblue:                    #0D5CD0;
+$darkgrey:                      #535353;
+$lightgrey:                     #D5D5D5;
+$lightgrey1:                    #EAEAEA;
+$lightgrey2:                    #C1C1C1;
+$orange:                        #FD9B26;
+$red:                           #ED4736;
+$white:                         #FFFFFF;
+
+$title-font:                    Raleway, "Open Sans", sans-serif;
+$serif-font:                    Oswald, serif;
+$sans-font:                     Roboto, "Open Sans", sans;
+
+@mixin desaturate($amount)      {-webkit-filter: grayscale($amount); -moz-filter: grayscale($amount); -ms-filter: grayscale($amount); -o-filter: grayscale($amount);}

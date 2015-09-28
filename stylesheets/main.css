@@ -1,0 +1,138 @@
+@import url(/bower_components/bootstrap/dist/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,400,300,700|Oswald:400,700,300|Roboto:400,300,700,500);
+.bold { font-weight: 600; }
+
+.row { overflow: hidden; }
+
+.close { clear: both; color: #535353; font-size: 4rem; opacity: 1; }
+
+.drag { margin-right: 10px; width: 25px; }
+.drag .icon-bar { border: 2px solid #D5D5D5; border-radius: 1px; margin-bottom: 3px; }
+
+header.header { border-bottom: 1px solid #050505; margin-bottom: 15px; }
+header.header h1 { color: #ED4736; font: 300 36px Raleway, "Open Sans", sans-serif; }
+
+aside.sidebar { border-right: 1px solid #D5D5D5; padding-bottom: 5000px; margin-bottom: -5000px; }
+
+.main p { margin: 0; }
+.main h1 { color: #ED4736; font: 100 40px Raleway, "Open Sans", sans-serif; margin-bottom: 10px; text-align: center; }
+.main h2 { border-bottom: 1px solid #D5D5D5; font: 400 20px Raleway, "Open Sans", sans-serif; letter-spacing: -.5px; margin: 40px 0 20px; text-transform: uppercase; }
+.main h2 span { color: #D5D5D5; }
+.main h2 a span { color: #0D5CD0; }
+
+form.custom-form label { font-size: 16px; font-family: Oswald, serif; }
+form.custom-form input, form.custom-form select, form.custom-form textarea { /*border: none;*/ border-radius: 0; box-shadow: none; font-size: 16px; }
+form.custom-form .resetsave { margin: 30px 0 20px; }
+form.custom-form .resetsave button { border: none; font-family: Oswald, serif; padding: 12px 50px; text-transform: uppercase; text-shadow: none; }
+form.custom-form .resetsave button.btn-default { background: #D5D5D5; color: #535353; }
+form.custom-form .resetsave button.btn-primary { background: #0D5CD0; }
+form.custom-form .taggroup { border: 1px solid #D5D5D5; padding: 6px 12px; }
+form.custom-form .taggroup .newtag { border: none; }
+form.custom-form .label { background: #D5D5D5; border-radius: 0; color: #535353; font-size: 1.6rem; font-weight: 400; padding: 5px 10px; }
+
+a.circle { border: 1px solid #0A55D0; border-radius: 100%; color: #0A55D0; display: inline-block; height: 20px; text-align: center; width: 20px; }
+
+.campaigns .sidebar a.new { color: #0A55D0; font-size: 20px; }
+.campaigns .sidebar .search { margin: 20px 0; }
+.campaigns .sidebar .search input { padding: 20px 15px; }
+.campaigns .sidebar .search span { padding: 5px 0; }
+.campaigns .sidebar .col-lg-4 { padding: 0 5px; }
+.campaigns .sidebar .dropdowns { position: relative; }
+.campaigns .sidebar .dropdowns header { background: #535353; color: #FFFFFF; margin: 0; padding: 5px 0; text-align: center; text-transform: uppercase; }
+.campaigns .sidebar .dropdowns section { background: #FFFFFF; border: 1px solid #535353; border-width: 0 1px 1px 1px; color: #535353; display: none; margin: 0; padding: 5px 10px; position: absolute; }
+.campaigns .sidebar .dropdowns section label { font: 16px Roboto, "Open Sans", sans; }
+.campaigns .sidebar table { margin-top: 10px; width: 100%; }
+.campaigns .sidebar table tr:hover, .campaigns .sidebar table tr.active { background: #EAEAEA; }
+.campaigns .sidebar table tr:hover .actions a, .campaigns .sidebar table tr.active .actions a { visibility: visible; }
+.campaigns .sidebar table tr h3 { margin: 0; }
+.campaigns .sidebar table tr td { border-bottom: 1px solid #D5D5D5; height: 90px; padding: 15px 0 0 15px; vertical-align: top; }
+.campaigns .sidebar table tr .actions { padding: 0; text-align: center; vertical-align: middle; }
+.campaigns .sidebar table tr .actions a { visibility: hidden; }
+.campaigns .sidebar table tr p { color: #C1C1C1; margin-top: 5px; }
+.campaigns .main .campaigntitle { color: #050505; font-family: Oswald, serif; text-align: left; }
+.campaigns .main .campaigntitle + p { font-size: 1.8rem; }
+.campaigns .main h4 { margin-top: 50px; }
+.campaigns .main .input-group .input-group-btn .btn { background: #EAEAEA; border-radius: 0; color: #535353; font-family: Oswald, serif; }
+.campaigns .main img { float: left; margin: 0 10px 10px 0; height: 120px; }
+
+.orders table.table tr td { vertical-align: middle; }
+.orders table.table .form-group input + input { margin-top: 5px; }
+.orders table.orders tr.fulfilled td { color: #D5D5D5; }
+.orders table.orders tr.fulfilled .status { color: #feca8b; }
+.orders table.orders tr th { border-bottom-color: #050505; font-size: 13px; }
+.orders table.orders tr td { padding: 15px 10px; }
+.orders table.orders tr td.status { color: #FD9B26; }
+.orders table.orders tr td a { color: #0A55D0; }
+.orders .order-details { margin-top: 80px; }
+.orders .order-details .order-summary { margin-bottom: 20px; }
+
+.menu header h1 { margin-bottom: 20px; }
+.menu header .menu-tabs .menu-tab { border: 1px solid #050505; border-bottom: 1px solid #FFFFFF; display: inline-block; font: 400 1.6rem Oswald, serif; margin-bottom: -1px; padding: 10px 45px; }
+.menu header .menu-tabs .menu-add { background: #0A55D0; border: none; border-radius: 2px; box-shadow: none; font: 400 1.6rem Oswald, serif; margin-left: 10px; padding: 5px 20px; position: relative; text-shadow: none; top: -3px; }
+.menu .additem { clear: both; list-style: none; margin-top: 80px; padding: 0; width: 100%; }
+.menu .additem li { padding: 15px 0; }
+.menu .additem li:hover { background: #EAEAEA; }
+.menu .additem li:hover h2 { font-weight: 600; }
+.menu .additem li:hover p { color: #050505; }
+.menu .additem li h2 { font-family: Raleway, "Open Sans", sans-serif; margin-top: 0; }
+.menu .additem li p { color: #C1C1C1; }
+.menu .close { text-align: right; float: none; margin: 10px 30px 0 0; }
+.menu .expand-collapse { padding: 10px 30px 0 0; text-align: right; }
+.menu .expand-collapse a { margin-left: 10px; }
+.menu .expand-collapse a.disabled { color: #D5D5D5; }
+.menu .menu-panel { background: #F4F4E7; padding: 0 0 30px; margin-bottom: 30px; }
+.menu .menu-panel h1 { background: #FFFFFF; color: #D5D5D5; font-family: Raleway, "Open Sans", sans-serif; margin: 0; padding: 10px 0; }
+.menu .menu-panel h2 { font-family: Oswald, serif; font-weight: 400; margin-left: 30px; }
+.menu .menu-panel > .large-link { color: #0A55D0; font-size: 2rem; margin-left: 30px; }
+.menu .menu-options { background: #FFFFFF; border-top: 1px solid #D5D5D5; margin: 0 30px 30px; padding: 0; }
+.menu .menu-options header { border: 1px solid #D5D5D5; padding: 5px; border-top: 0; }
+.menu .menu-options header .drag { float: left; margin: 8px 5px; }
+.menu .menu-options header .title { float: left; font: 400 1.8rem Oswald, serif; margin: 5px 15px; }
+.menu .menu-options header .price { font-size: 1.8rem; margin: 5px 15px; }
+.menu .menu-options header .actions { font-size: 1.8rem; padding: 5px 15px; }
+.menu .menu-options .content { border: 1px solid #D5D5D5; padding: 10px 30px; border-top: 0; position: relative; }
+.menu .menu-options .content img { width: 160px; margin-bottom: 10px; margin-right: 20px; }
+.menu .menu-options .content p { font-size: 1.6rem; width: 60%; }
+.menu .menu-options .content dt { text-align: left; }
+.menu .menu-options .content dd { color: #C1C1C1; }
+.menu .menu-options .content .description-row { margin-bottom: 20px; }
+.menu .menu-options .content .corner-action { font-size: 1.8rem; position: absolute; top: 10px; right: 30px; }
+.menu #create-category { margin-bottom: 0; padding: 30px 0 100px; }
+.menu #create-category .large-link { font-family: Oswald, serif; }
+
+.settings aside.sidebar { padding-left: 0; padding-right: 0; padding-top: 0; }
+.settings aside.sidebar li { text-transform: uppercase; }
+.settings aside.sidebar li.active a { background: #0A55D0; color: #FFFFFF; }
+.settings aside.sidebar li a { border-radius: 0; color: #0A55D0; padding: 15px 20px; }
+.settings .hero-checkbox, .settings .domainpurchase .hero-checkbox-small { background: #ED4736; color: #FFFFFF; font: 300 18px Raleway, "Open Sans", sans-serif; margin: 10px 0; padding: 25px 0px; text-align: center; }
+.settings button.rounded { border: none; border-radius: 100%; font-family: Oswald, serif; height: 40px; width: 40px; padding: 0; text-transform: uppercase; text-shadow: none; }
+.settings button.rounded.btn-primary { background: #0D5CD0; }
+.settings table.table tr td { vertical-align: middle; }
+.settings table.table .form-group input + input { margin-top: 5px; }
+.settings table.userroles tr th { border-bottom-color: #050505; font-size: 13px; }
+.settings table.userroles tr td { padding: 15px 10px; }
+.settings table.timetable { margin-top: 20px; }
+.settings table.timetable tr th, .settings table.timetable tr td { border: 0; }
+.settings table.timetable tr:last-child { border: 0; }
+.settings table.timetable tr.disabled .weekday { background: #EAEAEA; }
+.settings table.timetable tr.disabled input.form-control { border: none; }
+.settings table.timetable .weekday { background: #C1C1C1; color: #FFFFFF; padding: 6px 15px; text-transform: uppercase; width: 100%; }
+.settings table.timetable .weekday label { font-size: 13px; }
+.settings .checkbox-inverted input[type="checkbox"] { margin: 0; position: relative; }
+.settings .checkbox-inverted label { padding: 0; }
+.settings .googlemap { padding: 0; width: 100%; }
+.settings .googlemap iframe { border: 0; height: 400px; margin: 0 auto; width: 100%; }
+.settings table.openinghours tr td { border: 0; }
+.settings table.openinghours tr td.bold { width: 120px; }
+.settings .domainpurchase p { margin-bottom: 10px; }
+.settings .domainpurchase .domainsearch { margin: 20px 0; }
+.settings .domainpurchase .hero-checkbox-small { background-color: #535353; display: inline-block; margin: 0 5px 5px 0; padding: 8px 12px; width: auto; }
+.settings .reservationintegrations .col-lg-12 { margin: 30px 0 10px; }
+.settings .reservationintegrations p { font-size: 20px; }
+.settings .reservationintegrations img { width: 100%; -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); -o-filter: grayscale(100%); filter: gray; }
+.settings .nomargin { margin-bottom: 0; }
+.settings .appintegration { border-bottom: 1px solid #D5D5D5; padding: 20px 0; }
+.settings .appintegration img { width: 200px; }
+.settings .appintegration p { margin-top: 10px; }
+.settings .appintegration .form-inline { margin-top: 10px; }
+.settings .appintegration.inactive img { -webkit-filter: grayscale(100%); -moz-filter: grayscale(100%); -ms-filter: grayscale(100%); -o-filter: grayscale(100%); opacity: .5; }
